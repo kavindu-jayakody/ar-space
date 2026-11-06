@@ -3,7 +3,7 @@
 A marker-based AR space scene built with A-Frame 1.3.0 and AR.js 3.4.5.
 Point your phone at the **Hiro marker** to see a mini solar system, a floating astronaut and a rocket you can launch.
 
-**Live demo:** https://<your-username>.github.io/<repo-name>/
+**Live demo:** https://kavindu-jayakody.github.io/ar-space/
 **Hiro marker:** https://raw.githubusercontent.com/AR-js-org/AR.js/master/data/images/hiro.png
 
 ## Features (activity checklist)
@@ -21,6 +21,7 @@ Point your phone at the **Hiro marker** to see a mini solar system, a floating a
 
 ```
 index.html          the AR scene
+css/style.css       banner and hint styles
 js/components.js    change-color, rocket-launch, marker-status components
 models/astronaut.glb
 ```

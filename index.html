@@ -12,22 +12,7 @@
   <!-- Our own components -->
   <script src="js/components.js"></script>
 
-  <style>
-    body { margin: 0; overflow: hidden; font-family: system-ui, sans-serif; }
-    #status {
-      position: fixed; top: 12px; left: 50%; transform: translateX(-50%);
-      z-index: 10; padding: 10px 18px; border-radius: 999px;
-      font-size: 15px; font-weight: 600; color: #fff; white-space: nowrap;
-      background: #c0392b; box-shadow: 0 4px 14px rgba(0,0,0,.35);
-      transition: background .3s ease;
-    }
-    #status.found { background: #27ae60; }
-    #hint {
-      position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%);
-      z-index: 10; padding: 6px 12px; border-radius: 8px; width: max-content; max-width: 90vw;
-      font-size: 13px; color: #fff; background: rgba(0,0,0,.6); text-align: center;
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <!-- 5. Status banner (driven by the marker-status component) -->
